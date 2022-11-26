@@ -1,12 +1,21 @@
 {
   "name": "scanline",
   "version": "1.0.0",
-  "description": "easily scan command text",
+  "description": "easily scan command input text",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "readline",
+    "js",
+    "scan",
+    "scanline"
+  ],
+  "author": "ventcat",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dsxksss/scanline.git"
+  }
 }
