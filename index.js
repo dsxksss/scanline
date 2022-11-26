@@ -1,5 +1,5 @@
 const readline = require("readline");
-const input = (msg = "") => {
+const scanline = (msg = "") => {
   const rl = readline.createInterface({
     input: process.stdin,
     output: process.stdout,
@@ -12,4 +12,4 @@ const input = (msg = "") => {
   });
 };
 
-module.exports = input;
+module.exports = scanline;
