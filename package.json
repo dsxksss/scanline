@@ -1,6 +1,6 @@
 {
   "name": "scanline",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "easily scan command input text",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,6 @@
   },
   "keywords": [
     "readline",
-    "js",
     "scan",
     "scanline"
   ],

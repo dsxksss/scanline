@@ -1,13 +1,13 @@
 const readline = require("readline");
-const scanline = (msg = "") => {
+function scanline (msg = ""){
   const rl = readline.createInterface({
     input: process.stdin,
     output: process.stdout,
   });
-  return new Promise((result) => {
+  return new Promise(function(result) {
     rl.question(msg ?? "", (text) => {
       result(text);
-      rl.close();
+      return rl.close();
     });
   });
 };
