@@ -9,7 +9,7 @@ npm install scanline
 ```js
 const scanline = require("scanline");
 
-scanline("What is your name?").them(value=>console.log(`Wow hi ${name} !`);)
+scanline("What is your name?").them(name=>console.log(`Wow hi ${name} !`);)
  
 // or you need get input value
 
